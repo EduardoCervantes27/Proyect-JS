@@ -1,0 +1,29 @@
+body {
+    background-image: url("../img/hojas.jpg");
+    background-attachment: fixed;
+    font-family: 'Lato', sans-serif;
+}
+#logo {
+    background-color: #235F3B;
+}
+.contenido-nav a:hover {
+    color: #235F3B;
+}
+button {
+    background-color: #235F3B;
+}
+button:hover {
+    background-color: #328b56;
+}
+input[type="submit"] {
+    background-color: #235F3B;
+}
+input[type="submit"]:hover {
+    background-color: #328b56;
+}
+.subir {
+    background-color: #235F3B;
+}
+.subir:hover{
+    background-color: #328b56;
+}

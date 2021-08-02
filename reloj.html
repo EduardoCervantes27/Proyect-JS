@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Estilos CSS-->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link id="theme" rel="stylesheet" href="css/green.css">
+    <!--Fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!--Archivos JS-->
+    <script src="js/main.js"></script>
+    <title>Proyecto con JavaScript</title>
+    <!--Librerias-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/locale/es-mx.min.js"></script>
+    <!--Slider-->
+  </head>
+  <body>
+    <div class="selector-theme">
+        <div class="to-green"></div>
+        <div class="to-red"></div>
+        <div class="to-blue"></div>
+    </div>
+    <section id="global">
+      <div class="contenido-global">
+        <!--CABECERA-->
+        <header>
+          <div id="logo">PROYECTO JS</div>
+          <nav>
+            <div class="contenido-nav">
+              <a href="index.html">INICIO</a>
+              <a href="reloj.html">RELOJ</a>
+              <a href="about.html">SOBRE MI</a>
+              <a href="contact.html">CONTACTO</a>
+            </div>
+          </nav>
+        </header>
+        <!--CONTENIDO-->
+        <section id="content">
+          <div id="box">
+            <!--Cargar reloj desde un JSON -->
+            <div id="reloj">
+
+            </div>
+          </div>
+          <aside id="sidebar">
+            <h3><span>Quien soy</span></h3>
+            <img src="img/caracol.jpg" alt="Foto de caracol" />
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque
+              dicta at, asperiores alias magnam inventore necessitatibus
+              similique, molestias eius commodi mollitia? Ut dolorum dicta rerum
+              cumque autem nostrum magnam libero!
+            </p>
+            <form>
+                <h3><span>Identifícate</span></h3>
+                <label for="name">Nombre:</label>
+                <input type="text" name="name" id="form_name">
+                <label for="email">Correo:</label>
+                <input type="text" name="email">
+                <label for="pass">Contraseña:</label>
+                <input type="password" name="pass">
+                <input type="submit" value="Entrar">
+            </form>
+          </aside>
+        </section>
+      </div>
+    </section>
+    <footer>
+        Realizado por Cervantes Jaramillo Luis Eduardo &copy;
+        <a href="#" class="subir">Ir arriba</a>
+    </footer>
+  </body>
+</html>

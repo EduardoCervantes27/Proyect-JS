@@ -1,0 +1,29 @@
+body {
+    background-image: url("../img/rojo.jpg");
+    background-attachment: fixed;
+    font-family: 'Lato', sans-serif;
+}
+#logo {
+    background-color: #CA3413;
+}
+.contenido-nav a:hover {
+    color: #CA3413;
+}
+button {
+    background-color: #CA3413;
+}
+button:hover {
+    background-color: #e63d17;
+}
+input[type="submit"] {
+    background-color: #CA3413;
+}
+input[type="submit"]:hover {
+    background-color: #e63d17;
+}
+.subir {
+    background-color: #CA3413;
+}
+.subir:hover{
+    background-color: #e63d17;
+}
